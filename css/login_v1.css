@@ -1,0 +1,36 @@
+body {
+  background-color: bisque;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Viewport height*/
+}
+
+.login-card {
+  background-color: rgb(204, 221, 236);
+  width: 100%;
+  padding: 2rem; /* 2 veces el tamaño de la fuente raíz (si el html tiene 16px; 1rem = 16px)*/
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+.input-group label {
+  padding: 0.5rem;
+  text-align: left;
+}
+.input-group input {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+.btn-login {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 10px 0;
+  border-radius: 8px;
+  cursor: pointer; /* Cambia cómo se ve el cursor del ratón al pasar sobre un elemento*/
+}
